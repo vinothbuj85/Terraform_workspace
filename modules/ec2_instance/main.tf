@@ -7,7 +7,7 @@ variable "ami" {
 }
 
 variable "instance_type" {
-    decription ="This is an instance type, for example: t2.micro"
+    description ="This is an instance type, for example: t2.micro"
 }
 resource "aws_instance" "example"{
     ami = var.ami
