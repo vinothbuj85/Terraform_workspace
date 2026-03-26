@@ -11,7 +11,7 @@ variable "instance_type" {
 
   default= {
     "dev" = "t2.micro"
-    "stage" = "t2.micro"
+    "stage" = "t2.medium"
     "prod" = "t2.micro"
   }
 }
