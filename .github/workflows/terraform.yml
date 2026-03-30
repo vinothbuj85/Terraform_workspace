@@ -14,7 +14,7 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v4
     - name: Setup terrafrom
-      uses: hasicorp/setup-terraform@v3
+      uses: hashicorp/setup-terraform@v3
   
 
     
